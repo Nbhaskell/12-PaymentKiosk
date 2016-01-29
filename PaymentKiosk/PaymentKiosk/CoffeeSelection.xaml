@@ -9,7 +9,7 @@
     <Window.Background>
         <ImageBrush ImageSource="file:///C:/dev/Origin/12-PaymentKiosk/Resources/background.jpg" Opacity="0.75"/>
     </Window.Background>
-    <Grid>
+    <Grid Margin="0,1,0.4,-1">
         <Border BorderBrush="#FF090909" BorderThickness="5" HorizontalAlignment="Left" Height="152" Margin="0,41,0,0" VerticalAlignment="Top" Width="518" Background="White" Opacity="0.8"/>
 
         <Image x:Name="image" HorizontalAlignment="Left" Height="137" Margin="32,69,0,0" VerticalAlignment="Top" Width="122" Source="C:\dev\Origin\12-PaymentKiosk\Resources\coffee6.png"/>
@@ -30,12 +30,12 @@
                 <DropShadowEffect BlurRadius="4" Direction="325" ShadowDepth="10"/>
             </Label.Effect>
         </Label>
-        <Label x:Name="label_Copy2" Content="Cream :" HorizontalAlignment="Left" Margin="59,280,0,0" VerticalAlignment="Top" Width="99" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="#FFFF6600">
+        <Label x:Name="label_Copy2" Content="Cream :" HorizontalAlignment="Left" Margin="59,288,0,0" VerticalAlignment="Top" Width="99" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="#FFFF6600">
             <Label.Effect>
                 <DropShadowEffect ShadowDepth="10" Direction="325"/>
             </Label.Effect>
         </Label>
-        <Label x:Name="label_Copy3" Content="Sugar :" HorizontalAlignment="Left" Margin="286,280,0,0" VerticalAlignment="Top" Width="100" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="#FFFF6600">
+        <Label x:Name="label_Copy3" Content="Sugar :" HorizontalAlignment="Left" Margin="286,288,0,0" VerticalAlignment="Top" Width="100" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="#FFFF6600">
             <Label.Effect>
                 <DropShadowEffect ShadowDepth="10" Direction="325"/>
             </Label.Effect>
@@ -64,12 +64,12 @@
                 <ImageBrush ImageSource="C:\dev\Origin\12-PaymentKiosk\Resources\beans.jpg" Stretch="UniformToFill"/>
             </Button.Background>
         </Button>
-        <Label x:Name="label1" Content="(50¢)" HorizontalAlignment="Left" Margin="145,280,0,0" VerticalAlignment="Top" Width="70" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="White">
+        <Label x:Name="label1" Content="(50¢)" HorizontalAlignment="Left" Margin="145,288,0,0" VerticalAlignment="Top" Width="63" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="White">
             <Label.Effect>
                 <DropShadowEffect ShadowDepth="10" Direction="325"/>
             </Label.Effect>
         </Label>
-        <Label x:Name="label1_Copy" Content="(75¢)" HorizontalAlignment="Left" Margin="372,280,0,0" VerticalAlignment="Top" Width="63" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="White">
+        <Label x:Name="label1_Copy" Content="(75¢)" HorizontalAlignment="Left" Margin="372,288,0,0" VerticalAlignment="Top" Width="63" FontFamily="Showcard Gothic" FontSize="21.333" Foreground="White">
             <Label.Effect>
                 <DropShadowEffect ShadowDepth="10" Direction="325"/>
             </Label.Effect>
@@ -89,12 +89,12 @@
                 <DropShadowEffect ShadowDepth="10" Direction="325"/>
             </Label.Effect>
         </Label>
-        <CheckBox x:Name="checkBox" HorizontalAlignment="Left" Margin="213,292,0,0" VerticalAlignment="Top">
+        <CheckBox x:Name="checkBox" HorizontalAlignment="Left" Margin="213,300,0,0" VerticalAlignment="Top">
             <CheckBox.Effect>
                 <DropShadowEffect ShadowDepth="10"/>
             </CheckBox.Effect>
         </CheckBox>
-        <CheckBox x:Name="checkBox1" HorizontalAlignment="Left" Margin="440,292,0,0" VerticalAlignment="Top">
+        <CheckBox x:Name="checkBox1" HorizontalAlignment="Left" Margin="440,300,0,0" VerticalAlignment="Top">
             <CheckBox.Effect>
                 <DropShadowEffect ShadowDepth="10"/>
             </CheckBox.Effect>
